@@ -2853,6 +2853,7 @@
   function setLang(lang){
     document.documentElement.setAttribute('lang', lang);
     document.querySelectorAll('[data-fr]').forEach(function(el){
+      if(el.dataset.en === undefined){ el.dataset.en = el.innerHTML; }
       el.innerHTML = lang === 'fr' ? el.dataset.fr : el.dataset.en;
     });
     if(window.renderQuoteSummary){ window.renderQuoteSummary(); }
