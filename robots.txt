@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wayoraparis.com/sitemap.xml
+Sitemap: https://www.wayoraparis.com/sitemap.xml
