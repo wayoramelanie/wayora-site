@@ -1,5 +1,97 @@
 {
   "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/projets/",
+      "destination": "/production-evenementielle/",
+      "permanent": true
+    },
+    {
+      "source": "/projets",
+      "destination": "/production-evenementielle/",
+      "permanent": true
+    },
+    {
+      "source": "/expertise/",
+      "destination": "/organisation-evenements/",
+      "permanent": true
+    },
+    {
+      "source": "/expertise",
+      "destination": "/organisation-evenements/",
+      "permanent": true
+    },
+    {
+      "source": "/a-propos/",
+      "destination": "/agence-evenementielle/",
+      "permanent": true
+    },
+    {
+      "source": "/a-propos",
+      "destination": "/agence-evenementielle/",
+      "permanent": true
+    },
+    {
+      "source": "/voyages/",
+      "destination": "/voyages-b2b/",
+      "permanent": true
+    },
+    {
+      "source": "/voyages",
+      "destination": "/voyages-b2b/",
+      "permanent": true
+    },
+    {
+      "source": "/voyages/nos-voyages/",
+      "destination": "/voyages-b2b/voyages-entreprise/",
+      "permanent": true
+    },
+    {
+      "source": "/voyages/nos-voyages",
+      "destination": "/voyages-b2b/voyages-entreprise/",
+      "permanent": true
+    },
+    {
+      "source": "/voyages/nos-services/",
+      "destination": "/voyages-b2b/organisation-voyage-b2b/",
+      "permanent": true
+    },
+    {
+      "source": "/voyages/nos-services",
+      "destination": "/voyages-b2b/organisation-voyage-b2b/",
+      "permanent": true
+    },
+    {
+      "source": "/voyages/demande-d-information/",
+      "destination": "/voyages-b2b/creer-mon-voyage-b2b/",
+      "permanent": true
+    },
+    {
+      "source": "/voyages/demande-d-information",
+      "destination": "/voyages-b2b/creer-mon-voyage-b2b/",
+      "permanent": true
+    },
+    {
+      "source": "/voyages/conditions-generales/",
+      "destination": "/cgv-voyage-b2b/",
+      "permanent": true
+    },
+    {
+      "source": "/voyages/conditions-generales",
+      "destination": "/cgv-voyage-b2b/",
+      "permanent": true
+    },
+    {
+      "source": "/cgv/",
+      "destination": "/cgv-evenements/",
+      "permanent": true
+    },
+    {
+      "source": "/cgv",
+      "destination": "/cgv-evenements/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
