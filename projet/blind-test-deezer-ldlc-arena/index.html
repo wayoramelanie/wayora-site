@@ -833,6 +833,36 @@
     .nav-links .sub a{padding:6px 0; font-size:0.7rem;}
   }
 
+  /* ================= Ajustements téléphone (08/10/2026) ================= */
+  html,body{max-width:100%;}
+  body{overflow-x:hidden;}
+  img,video,svg{max-width:100%;}
+  @media (max-width:860px){
+    .wrap{padding-left:20px !important; padding-right:20px !important;}
+    .services-visual .square, .tv .services-visual .arch{position:relative !important;}
+    .services-visual{overflow:hidden; border-radius:12px;}
+    .projects-grid > *{min-width:0;}
+    .projects-grid .proj-meta{flex-wrap:wrap; gap:4px 12px;}
+    .projects-grid .tag{white-space:normal !important;}
+  }
+  @media (max-width:520px){
+    .projects-grid{grid-template-columns:1fr !important;}
+  }
+  @media (max-width:380px){
+    .nav{gap:6px;} .logo-img--header{height:54px;} .nav-right{gap:6px;} .nav-right .btn{padding:8px 10px;} .menu-toggle{padding:6px;}
+    .about-trio{gap:10px;} .about-trio-item{width:84px; height:84px;}
+    .create-main, .form-section, .option-row{min-width:0; max-width:100%;} .option-row{flex-wrap:wrap;}
+  }
+  @media (max-width:560px){ .tv .option-row{margin-left:0;} .tv .option-card-grid, .tv .option-cards{margin-left:0;} }
+  @media (max-width:560px){ .tv .option-card-row{margin-left:0 !important; grid-template-columns:1fr 1fr !important;} .tv .option-card{min-width:0; padding:14px 12px;} .tv .form-section{margin-left:0;} }
+  @media (max-width:380px){ .tv .option-card-row{grid-template-columns:1fr !important;} }
+  @media (max-width:860px){ .tv .create-layout{grid-template-columns:minmax(0,1fr) !important;} .tv .create-layout > *{min-width:0;} }
+  @media (max-width:560px){
+    .pj .planche-row{flex-wrap:wrap; max-width:100% !important;}
+    .pj .planche-row .pj-video{order:-1; flex:1 1 100% !important; width:100%;}
+    .pj .planche-row .shot{flex:1 1 calc(50% - 8px) !important; min-width:0;}
+  }
+
   .card-link{display:contents; color:inherit; text-decoration:none;}
   .card-link:focus-visible .proj-title{outline:2px solid var(--accent); outline-offset:3px;}
   .final-cta h1{font-size:clamp(2rem,4vw,2.8rem);}
